@@ -1,11 +1,11 @@
-source $HOME/.config/nvim/vim-plug/plugins.vim
-source $HOME/.config/nvim/plug-config/coc-config.vim
-source $HOME/.config/nvim/plug-config/ctrlp-config.vim
-source $HOME/.config/nvim/plug-config/sneak.vim
-source $HOME/.config/nvim/plug-config/quickscope.vim
-source $HOME/.config/nvim/plug-config/airline.vim
-source $HOME/.config/nvim/plug-config/rnvimr.vim
-"source $HOME/.config/nvim/plug-config/treesitter.vim
+source $HOME/AppData/Local/nvim/vim-plug/plugins.vim
+source $HOME/AppData/Local/nvim/plug-config/coc-config.vim
+source $HOME/AppData/Local/nvim/plug-config/ctrlp-config.vim
+source $HOME/AppData/Local/nvim/plug-config/sneak.vim
+source $HOME/AppData/Local/nvim/plug-config/quickscope.vim
+source $HOME/AppData/Local/nvim/plug-config/airline.vim
+source $HOME/AppData/Local/nvim/plug-config/rnvimr.vim
+source $HOME/AppData/Local/nvim/plug-config/treesitter.vim
 
 set list
 set expandtab
@@ -48,8 +48,8 @@ let test = "{}"
 nnoremap <leader>d /test
 nnoremap <C-s> gt
 nnoremap <C-a> gT
-command! Initf execute "e ~/.config/nvim/init.vim"
-command! Plugf execute "e ~/.config/nvim/vim-plug/plugins.vim"
+command! Initf execute "e ~/AppData/Local/nvim/init.vim"
+command! Plugf execute "e ~/AppData/Local/nvim/vim-plug/plugins.vim"
 command! Codef execute "e ~/Documents/code"
 command! Otherf execute "e ~/Documents/code/other"
 command! Webf execute "e ~/Documents/code/websites"
