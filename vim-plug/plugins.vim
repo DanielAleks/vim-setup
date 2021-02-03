@@ -1,5 +1,7 @@
 call plug#begin('~/.config/nvim/autoload/plugged')
 
+Plug 'chriskempson/base16-vim'
+Plug 'ackyshake/Spacegray.vim'
   Plug 'neoclide/coc.nvim', {'branch': 'release'}
  Plug 'HerringtonDarkholme/yats'
   Plug 'preservim/nerdtree'
@@ -24,16 +26,10 @@ Plug 'metakirby5/codi.vim'
     Plug 'francoiscabrol/ranger.vim'
     Plug 'rbgrouleff/bclose.vim'
     Plug 'mattn/emmet-vim'
-    Plug 'liuchengxu/vim-which-key'
-    Plug 'ThePrimeagen/vim-be-good'
+    Plug 'rrethy/vim-hexokinase', { 'do': 'make hexokinase' }
+
 "Plug 'christianchiarulli/nvcode-color-schemes.vim'
 "Plug 'nvim-treesitter/nvim-treesitter'
-
-""""""""""""""""""""""""""""""""""""""""
-" => Plugins with ...
-""""""""""""""""""""""""""""""""""""""""
-
-
 
 call plug#end()
 
