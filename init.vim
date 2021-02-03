@@ -7,6 +7,8 @@ source $HOME/AppData/Local/nvim/plug-config/airline.vim
 source $HOME/AppData/Local/nvim/plug-config/rnvimr.vim
 source $HOME/AppData/Local/nvim/plug-config/treesitter.vim
 
+let g:python2_host_prog = 'C:/Python27'
+
 set list
 set expandtab
 set number
@@ -18,6 +20,8 @@ set smartcase " searches for upper and lower cased
 set ignorecase " complements above line
 "set cursorline
 set mouse=a
+map <ScrollWheelUp> <C-Y>
+map <ScrollWheelDown> <C-E>
 
 
 let g:startify_session_dir = '~/.config/nvim/sessions'
@@ -38,7 +42,7 @@ set termguicolors
 let mapleader = " "
 let localmapleader = "."
 
-
+nnoremap <silent> <leader>      :<c-u>WhichKey '<Space>'<CR>
 
 command! Rl execute "source $MYVIMRC" " reload Vim
 nnoremap <leader>rv :source $MYVIMRC<CR> 
